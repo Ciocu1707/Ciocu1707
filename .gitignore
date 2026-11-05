@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+.pytest_cache/
+.env
+# OAuth secrets and tokens - never commit
+client_secret*.json
+token.json
+.youtube_agent/
