@@ -1,0 +1,147 @@
+[
+ {
+  "id": "h1",
+  "who": "TELEFON",
+  "voice": "ro-RO-AlinaNeural",
+  "rate": "+6%",
+  "pitch": "+18Hz",
+  "text": "Apelul dumneavoastră este important pentru noi. Sunteți al patruzeci și șaptelea la rând.",
+  "sub": "Apelul dumneavoastră este important pentru noi. Sunteți al 47-lea la rând."
+ },
+ {
+  "id": "i1",
+  "who": "ILINCA",
+  "voice": "ro-RO-AlinaNeural",
+  "rate": "+12%",
+  "pitch": "+10Hz",
+  "text": "Doru! Stau pe așteptare de trei ore!",
+  "sub": "Doru! Stau pe așteptare de 3 ore!"
+ },
+ {
+  "id": "d1",
+  "who": "DORU",
+  "voice": "ro-RO-EmilNeural",
+  "rate": "-14%",
+  "pitch": "-8Hz",
+  "text": "Am rezolvat."
+ },
+ {
+  "id": "d2",
+  "who": "DORU",
+  "voice": "ro-RO-EmilNeural",
+  "rate": "-12%",
+  "pitch": "-8Hz",
+  "text": "Sărim peste așteptare."
+ },
+ {
+  "id": "i2",
+  "who": "ILINCA",
+  "voice": "ro-RO-AlinaNeural",
+  "rate": "+18%",
+  "pitch": "+14Hz",
+  "text": "Nu, Doru, stai, stai, stai!",
+  "sub": "Nu, Doru, stai, stai—",
+  "cut": 1.75
+ },
+ {
+  "id": "h2",
+  "who": "TELEFON",
+  "voice": "ro-RO-AlinaNeural",
+  "rate": "+6%",
+  "pitch": "+18Hz",
+  "text": "Sunteți al patruzeci și șaselea la rând.",
+  "sub": "Sunteți al 46-lea la rând."
+ },
+ {
+  "id": "i3",
+  "who": "ILINCA",
+  "voice": "ro-RO-AlinaNeural",
+  "rate": "+14%",
+  "pitch": "+16Hz",
+  "text": "O săptămână?! Pentru unul?!"
+ },
+ {
+  "id": "d3",
+  "who": "DORU",
+  "voice": "ro-RO-EmilNeural",
+  "rate": "-14%",
+  "pitch": "-8Hz",
+  "text": "Mai sărim."
+ },
+ {
+  "id": "h3",
+  "who": "TELEFON",
+  "voice": "ro-RO-AlinaNeural",
+  "rate": "+6%",
+  "pitch": "+18Hz",
+  "text": "Sunteți al patruzeci și cincilea la rând.",
+  "sub": "Sunteți al 45-lea la rând."
+ },
+ {
+  "id": "i4",
+  "who": "ILINCA",
+  "voice": "ro-RO-AlinaNeural",
+  "rate": "-12%",
+  "pitch": "-14Hz",
+  "text": "Patruzeci de ani, Doru. Pentru unul.",
+  "sub": "40 de ani, Doru. Pentru unul."
+ },
+ {
+  "id": "d4",
+  "who": "DORU",
+  "voice": "ro-RO-EmilNeural",
+  "rate": "-20%",
+  "pitch": "-12Hz",
+  "text": "Ultima dată."
+ },
+ {
+  "id": "o1",
+  "who": "OPERATOR",
+  "voice": "ro-RO-EmilNeural",
+  "rate": "+10%",
+  "pitch": "+22Hz",
+  "text": "Bună ziua! Cu ce vă pot ajuta?"
+ },
+ {
+  "id": "i5",
+  "who": "ILINCA",
+  "voice": "ro-RO-AlinaNeural",
+  "rate": "-16%",
+  "pitch": "-14Hz",
+  "text": "Am uitat de ce am sunat.",
+  "sub": "...Am uitat de ce am sunat."
+ },
+ {
+  "id": "o2",
+  "who": "OPERATOR",
+  "voice": "ro-RO-EmilNeural",
+  "rate": "+10%",
+  "pitch": "+22Hz",
+  "text": "Vă transfer."
+ },
+ {
+  "id": "h4",
+  "who": "TELEFON",
+  "voice": "ro-RO-AlinaNeural",
+  "rate": "+6%",
+  "pitch": "+18Hz",
+  "text": "Sunteți al patruzeci și șaptelea la rând.",
+  "sub": "Sunteți al 47-lea la rând."
+ },
+ {
+  "id": "d5",
+  "who": "DORU",
+  "voice": "ro-RO-EmilNeural",
+  "rate": "-12%",
+  "pitch": "-8Hz",
+  "text": "Sărim?"
+ },
+ {
+  "id": "i6",
+  "who": "ILINCA",
+  "voice": "ro-RO-AlinaNeural",
+  "rate": "-10%",
+  "pitch": "-12Hz",
+  "text": "Sărim."
+ }
+]
