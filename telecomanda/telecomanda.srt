@@ -1,0 +1,63 @@
+1
+00:00:02,800 --> 00:00:07,150
+DORU: Ilinca. Nu pune mâna pe telecomanda aia.
+
+2
+00:00:10,000 --> 00:00:11,841
+ILINCA: Nu prinde nimic.
+
+3
+00:00:12,750 --> 00:00:15,889
+DORU: Ilinca. E un dinozaur.
+
+4
+00:00:15,800 --> 00:00:17,759
+ILINCA: Nu mă interesează.
+
+5
+00:00:18,600 --> 00:00:20,088
+DORU: Ave, Ilin—
+
+6
+00:00:19,600 --> 00:00:20,300
+ILINCA: Nu.
+
+7
+00:00:20,950 --> 00:00:21,580
+ILINCA: Nu.
+
+8
+00:00:21,950 --> 00:00:22,580
+ILINCA: Nu.
+
+9
+00:00:22,950 --> 00:00:23,580
+ILINCA: Nu.
+
+10
+00:00:23,950 --> 00:00:24,580
+ILINCA: Nu.
+
+11
+00:00:27,200 --> 00:00:29,956
+ILINCA BĂTRÂNĂ: Și voi sunteți pe așteptare?
+
+12
+00:00:31,700 --> 00:00:32,953
+ILINCA: ...Nu.
+
+13
+00:00:34,100 --> 00:00:36,958
+DORU: Gata! Dă-o încoace!
+
+14
+00:00:37,800 --> 00:00:40,781
+TELEVIZOR: Esmeralda... eu sunt tatăl tău.
+
+15
+00:00:41,800 --> 00:00:44,620
+ILINCA: Ooo! Asta e telenovela mea!
+
+16
+00:00:45,000 --> 00:00:45,980
+DORU: Nu.
