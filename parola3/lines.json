@@ -1,0 +1,144 @@
+[
+ {
+  "id": "t1",
+  "who": "TATA",
+  "voice": "ro-RO-EmilNeural",
+  "rate": "-22%",
+  "pitch": "-10Hz",
+  "text": "Am uitat parola. Apăs aici."
+ },
+ {
+  "id": "t2",
+  "who": "TATA",
+  "voice": "ro-RO-EmilNeural",
+  "rate": "-22%",
+  "pitch": "-10Hz",
+  "text": "Codul vine pe e-mail."
+ },
+ {
+  "id": "a1",
+  "who": "ANDREI",
+  "voice": "ro-RO-EmilNeural",
+  "rate": "+10%",
+  "pitch": "+26Hz",
+  "text": "Pe care e-mail, tată?"
+ },
+ {
+  "id": "t3",
+  "who": "TATA",
+  "voice": "ro-RO-EmilNeural",
+  "rate": "-22%",
+  "pitch": "-10Hz",
+  "text": "Pe ăla de pe laptop."
+ },
+ {
+  "id": "a2",
+  "who": "ANDREI",
+  "voice": "ro-RO-EmilNeural",
+  "rate": "-6%",
+  "pitch": "+20Hz",
+  "text": "Tată, laptopul ăsta are antenă."
+ },
+ {
+  "id": "t4",
+  "who": "TATA",
+  "voice": "ro-RO-EmilNeural",
+  "rate": "-26%",
+  "pitch": "-10Hz",
+  "text": "Codul este: unu, doi, trei, patru, cinci, șase.",
+  "sub": "Codul este: 1, 2, 3, 4, 5, 6."
+ },
+ {
+  "id": "m1",
+  "who": "MAMA",
+  "voice": "ro-RO-AlinaNeural",
+  "rate": "-10%",
+  "pitch": "-6Hz",
+  "text": "Serios?"
+ },
+ {
+  "id": "t5",
+  "who": "TATA",
+  "voice": "ro-RO-EmilNeural",
+  "rate": "-24%",
+  "pitch": "-10Hz",
+  "text": "Selectați semafoarele."
+ },
+ {
+  "id": "t6",
+  "who": "TATA",
+  "voice": "ro-RO-EmilNeural",
+  "rate": "-24%",
+  "pitch": "-10Hz",
+  "text": "Selectați bicicletele."
+ },
+ {
+  "id": "t10",
+  "who": "TATA",
+  "voice": "ro-RO-EmilNeural",
+  "rate": "-28%",
+  "pitch": "-10Hz",
+  "text": "Selectați imaginile cu dumneavoastră. Care sunt eu?",
+  "sub": "„Selectați imaginile cu dumneavoastră.” ...Care sunt eu?"
+ },
+ {
+  "id": "t7",
+  "who": "TATA",
+  "voice": "ro-RO-EmilNeural",
+  "rate": "-30%",
+  "pitch": "-12Hz",
+  "text": "Nu sunteți robot? Nu știu.",
+  "sub": "„Nu sunteți robot?” ...Nu știu."
+ },
+ {
+  "id": "m2",
+  "who": "MAMA",
+  "voice": "ro-RO-AlinaNeural",
+  "rate": "-12%",
+  "pitch": "-6Hz",
+  "text": "Pune ceva ce nu uiți."
+ },
+ {
+  "id": "t8",
+  "who": "TATA",
+  "voice": "ro-RO-EmilNeural",
+  "rate": "-26%",
+  "pitch": "-10Hz",
+  "text": "Rex... nouăzeci și unu.",
+  "sub": "Rex... 91."
+ },
+ {
+  "id": "a3",
+  "who": "ANDREI",
+  "voice": "ro-RO-EmilNeural",
+  "rate": "+18%",
+  "pitch": "+32Hz",
+  "text": "A mers! A mers!",
+  "sub": "A mers! A MERS!"
+ },
+ {
+  "id": "t9",
+  "who": "TATA",
+  "voice": "ro-RO-EmilNeural",
+  "rate": "-18%",
+  "pitch": "-8Hz",
+  "text": "Ei. Ce ne uităm?"
+ },
+ {
+  "id": "a4",
+  "who": "ANDREI",
+  "voice": "ro-RO-EmilNeural",
+  "rate": "-10%",
+  "pitch": "+20Hz",
+  "text": "Tată?",
+  "sub": "...Tată?"
+ },
+ {
+  "id": "m3",
+  "who": "MAMA",
+  "voice": "ro-RO-AlinaNeural",
+  "rate": "-14%",
+  "pitch": "-6Hz",
+  "text": "Lasă-l. A avut o zi grea."
+ }
+]
