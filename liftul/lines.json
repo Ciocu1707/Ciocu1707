@@ -1,0 +1,20 @@
+[
+ {"id": "m1", "who": "MIHAI", "voice": "ro-RO-EmilNeural", "rate": "+18%", "pitch": "+22Hz",
+  "text": "Țineți ușa! Etajul nouă, vă rog! Șefa mă omoară dacă se răcește cafeaua!", "sub": "Țineți ușa! Etajul 9, vă rog! Șefa mă omoară dacă se răcește cafeaua!"},
+ {"id": "l1", "who": "LEANA", "voice": "ro-RO-AlinaNeural", "rate": "-18%", "pitch": "-20Hz", "text": "Ține-te bine."},
+ {"id": "m2", "who": "MIHAI", "voice": "ro-RO-EmilNeural", "rate": "+12%", "pitch": "+22Hz", "text": "Ăsta nu e etajul nouă.", "sub": "Ăsta nu e etajul 9."},
+ {"id": "l2", "who": "LEANA", "voice": "ro-RO-AlinaNeural", "rate": "-18%", "pitch": "-20Hz", "text": "Nu. E trei.", "sub": "Nu. E 3."},
+ {"id": "m3", "who": "MIHAI", "voice": "ro-RO-EmilNeural", "rate": "+25%", "pitch": "+30Hz", "text": "Pisică! Pisică! Pisică!", "sub": "Pisică! Pisică! PISICĂ!"},
+ {"id": "l3", "who": "LEANA", "voice": "ro-RO-AlinaNeural", "rate": "-18%", "pitch": "-20Hz", "text": "Șapte.", "sub": "7."},
+ {"id": "m4", "who": "MIHAI", "voice": "ro-RO-EmilNeural", "rate": "+20%", "pitch": "+26Hz", "text": "Cafeaua! Cafeaua plutește!"},
+ {"id": "l4", "who": "LEANA", "voice": "ro-RO-AlinaNeural", "rate": "-18%", "pitch": "-20Hz", "text": "Treisprezece.", "sub": "13."},
+ {"id": "l5", "who": "LEANA", "voice": "ro-RO-AlinaNeural", "rate": "-10%", "pitch": "-20Hz", "text": "Cinci.", "sub": "5."},
+ {"id": "l6", "who": "LEANA", "voice": "ro-RO-AlinaNeural", "rate": "-10%", "pitch": "-20Hz", "text": "Minus doi.", "sub": "-2."},
+ {"id": "l7", "who": "LEANA", "voice": "ro-RO-AlinaNeural", "rate": "-10%", "pitch": "-20Hz", "text": "Opt.", "sub": "8."},
+ {"id": "l8", "who": "LEANA", "voice": "ro-RO-AlinaNeural", "rate": "-22%", "pitch": "-20Hz", "text": "Nouă.", "sub": "9."},
+ {"id": "m5", "who": "MIHAI", "voice": "ro-RO-EmilNeural", "rate": "-6%", "pitch": "+20Hz", "text": "Ăștia suntem noi.", "sub": "...Ăștia suntem noi."},
+ {"id": "l9", "who": "LEANA", "voice": "ro-RO-AlinaNeural", "rate": "-18%", "pitch": "-20Hz", "text": "Etajul nouă e liftul. Și eu sunt șefa.", "sub": "Etajul 9 e liftul. Și eu sunt șefa."},
+ {"id": "m6", "who": "MIHAI", "voice": "ro-RO-EmilNeural", "rate": "+14%", "pitch": "+34Hz", "text": "Dumneavoastră?!"},
+ {"id": "l10", "who": "LEANA", "voice": "ro-RO-AlinaNeural", "rate": "-20%", "pitch": "-20Hz", "text": "E rece."},
+ {"id": "l11", "who": "LEANA", "voice": "ro-RO-AlinaNeural", "rate": "-18%", "pitch": "-20Hz", "text": "Ține-te bine."}
+]
