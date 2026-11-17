@@ -1,6 +1,6 @@
 // Tata și parola — part 1 "Parola" (Sci-Fi Sitcom Toon style, family comedy)
 import { clamp, lerp, seg, ss, eo, ei, back, spring, hash, TAU } from '/core/lib.js';
-import { W, H, INK, init, frame, g, push, pop, translate, rotate, scale, shape, fillOnly, stroke, ell, arc, rr, rect, spline, dot, text, screenRect, reset } from './toon.js';
+import { W, H, INK, init, frame, g, push, pop, translate, rotate, scale, shape, fillOnly, stroke, ell, arc, rr, rect, spline, dot, text, screenRect, reset, lightPass } from './toon.js';
 import { tata, mama, andrei, rex, lens, eye, TAG } from './cast.js';
 import { room, sofaArmFront, tvSet, keyPos, TV, KEYS, brain, clerk, DRAWERS } from './sets.js';
 import { DUR, q, VO, SHOTS, shotAt, FIELD, KEYWALK, LAPSE, T, CUES, CREDITS } from './story.js';
@@ -196,7 +196,7 @@ function endCard(t) {
 function render(t) {
   frame(t); screenRect('#000');
   const [, , name] = shotAt(t);
-  if (name === 'end') endCard(t); else SH[name](t, q(t));
+  if (name === 'end') endCard(t); else { SH[name](t, q(t)); lightPass(); }
   subs(t);
 }
 function events() {

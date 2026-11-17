@@ -1,6 +1,6 @@
 // sets.js — the living room, the TV login screen with its on-screen keyboard, Tata's brain (an archive).
 import { clamp, lerp, hash, TAU } from '/core/lib.js';
-import { INK, push, pop, translate, rotate, scale, shape, fillOnly, stroke, ell, arc, spline, rr, rect, dot, text, bands } from './toon.js';
+import { INK, push, pop, translate, rotate, scale, shape, fillOnly, stroke, ell, arc, spline, rr, rect, dot, text, bands, floorShadow } from './toon.js';
 import { eye, mouth } from './cast.js';
 
 const X0 = -1600, X1 = 3600;
@@ -36,6 +36,7 @@ export function room(t, { day = 0, clock = 0, photo = 0 } = {}) {
   for (let x = -1600; x < 3600; x += 170) stroke([[x, 860], [x - 300, 1760]], 4, { line: '#734a30' });
   shape(ell(900, 960, 560, 70, 40), { fill: '#3a7bd5', lw: 6, shade: () => stroke(ell(900, 960, 470, 52, 40), 4, { line: '#6aa0ea' }) });
   // sofa (behind, right)
+  floorShadow(1520, 862, 280, 30, .3); floorShadow(450, 862, 380, 30, .3);
   shape(rr(1300, 560, 440, 220, 40), { fill: '#e2a72e', lw: 7 });
   shape(rr(1310, 740, 420, 120, 30), { fill: '#e2a72e', lw: 7, shade: () => fillOnly(rect(1310, 820, 420, 50), '#c4852a', { boil: .3 }) });
   // TV cabinet

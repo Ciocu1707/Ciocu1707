@@ -1,6 +1,6 @@
 // cast.js — "Tata și parola": Tata (seated, magnifying glass), Mama (arms crossed), Andrei (teen on the sofa, grows a beard), Rex (dachshund).
 import { clamp, lerp, hash, TAU } from '/core/lib.js';
-import { INK, push, pop, translate, rotate, scale, shape, fillOnly, stroke, ell, arc, spline, rr, rect, noodle, quad, dot, text } from './toon.js';
+import { INK, push, pop, translate, rotate, scale, shape, fillOnly, stroke, ell, arc, spline, rr, rect, noodle, quad, dot, text, floorShadow } from './toon.js';
 
 const C = { white: '#ffffff', mouthIn: '#4a1a2a', tongue: '#e8637a',
   skinT: '#f0c49a', skinTs: '#d29d72', cardigan: '#8a8f9a', cardiganS: '#6e737e', hairGrey: '#d9d9d9',
@@ -44,6 +44,7 @@ export function lens(x, y, r, a = 0) {
 // P: {x,y,s,face,lid,look,brow,mouth,blink,spin(t or -1),sweat,lensUp(0..1),lensAt:[x,y] local, finger:{h}, webs, dust}
 export function tata(P) {
   const f = P.face ?? -1;
+  floorShadow(P.x, P.y, 260 * (P.s ?? 1));
   push(); translate(P.x, P.y); scale((P.s ?? 1) * f, P.s ?? 1);
   // armchair back
   shape(rr(-170, -520, 200, 440, 50), { fill: '#7a3a2a', lw: 7, shade: () => fillOnly(rect(-180, -530, 70, 460), '#5c2a1e', { boil: .3 }) });
@@ -102,6 +103,7 @@ function headTata(P) {
 // —— Mama: standing, arms crossed, hair bun with a pencil, floral apron ——
 export function mama(P) {
   const f = P.face ?? -1;
+  floorShadow(P.x, P.y, 150 * (P.s ?? 1));
   push(); translate(P.x, P.y); scale((P.s ?? 1) * f, P.s ?? 1);
   for (const sx of [-1, 1]) { shape(noodle([sx * 26, -230], [sx * 30, -24], 0, 30, 26), { fill: C.skinM, lw: 6 }); shape(spline([[sx * 30 - 24, -6], [sx * 30 - 20, -30], [sx * 30 + 30, -30], [sx * 30 + 40, -6]]), { fill: '#e2523b', lw: 6 }); }
   shape(spline([[-60, -560], [-100, -480], [-120, -230], [0, -210], [120, -230], [100, -480], [60, -560]]), { fill: C.dress, lw: 7 });
@@ -156,6 +158,7 @@ export function andrei(P) {
 
 // —— Rex the dachshund: long body, short legs, a collar with a tag ——
 export function rex(x, y, s = 1, { face = 1, t = 0, walk = false, bark = 0, sit = false } = {}) {
+  floorShadow(x + 20 * s * face, y, 200 * s);
   push(); translate(x, y); scale(s * face, s);
   const ph = walk ? t * 12 : 0;
   for (const [lx, o] of [[-90, 0], [-50, Math.PI], [70, Math.PI], [110, 0]]) stroke([[lx, -50], [lx + Math.sin(ph + o) * 12, -4]], 12, { line: C.dogS });

@@ -24,7 +24,7 @@ export const getM = () => M.slice();
 export const setM = m => { M = m.slice(); };
 
 // —— global state (set every frame)——
-export const S = { boil: 0, amp: 1.7, sid: 0, lw: 7, lwScale: 1 };
+export const S = { boil: 0, amp: 1.7, sid: 0, lw: 7, lwScale: .72, vol: 1 };   // vol: 3D volume shading on (1) / off (0)
 export function frame(t, { amp = 1.7 } = {}) {
   S.boil = Math.floor(t * 12 + 1e-6) % 3; S.amp = amp; S.sid = 0; reset();
   g.setTransform(1, 0, 0, 1, 0, 0);
@@ -125,9 +125,50 @@ export function shape(pts, o = {}) {
   if (o.alpha != null) g.globalAlpha = o.alpha;
   if (o.fill && closed) { g.fillStyle = o.fill; g.fill(P); }
   if (o.shade) { g.save(); g.clip(P); o.shade(); g.restore(); }
+  if (S.vol && o.fill && closed && o.stroke !== false && o.flat !== true && !String(o.fill).startsWith('rgba')) volume(P, s);   // outlined forms only, not decorative fills
   if (o.stroke !== false && o.line !== null) outline(P, o.lw ?? S.lw, o.line ?? INK);
   if (o.alpha != null) g.globalAlpha = 1;
   return P;
+}
+// 3D volume: light from the top left, a soft core shadow at the bottom right, a small specular highlight.
+// Skipped on very large shapes (walls, skies, floors) so the backgrounds stay calm.
+function volume(P, s) {
+  let x0 = 1e9, y0 = 1e9, x1 = -1e9, y1 = -1e9;
+  for (const [x, y] of s) { if (x < x0) x0 = x; if (x > x1) x1 = x; if (y < y0) y0 = y; if (y > y1) y1 = y; }
+  const w = x1 - x0, h = y1 - y0;
+  if (w < 8 || h < 8 || w > 1500 || h > 900) return;
+  g.save(); g.clip(P);
+  const gr = g.createLinearGradient(x0, y0, x1, y1);
+  gr.addColorStop(0, 'rgba(255,255,255,.30)'); gr.addColorStop(.42, 'rgba(255,255,255,0)');
+  gr.addColorStop(.58, 'rgba(20,10,40,0)'); gr.addColorStop(1, 'rgba(20,10,40,.34)');
+  g.fillStyle = gr; g.fillRect(x0 - 2, y0 - 2, w + 4, h + 4);
+  if (w < 500 && h < 500) {   // a specular highlight on the smaller, rounder forms only
+    const r = Math.min(w, h) * .3, sx = x0 + w * .3, sy = y0 + h * .26;
+    const sp = g.createRadialGradient(sx, sy, 0, sx, sy, r);
+    sp.addColorStop(0, 'rgba(255,255,255,.22)'); sp.addColorStop(1, 'rgba(255,255,255,0)');
+    g.fillStyle = sp; g.fillRect(sx - r, sy - r, r * 2, r * 2);
+  }
+  g.restore();
+}
+// soft contact shadow on the floor (world coordinates)
+export function floorShadow(x, y, rx, ry = rx * .16, a = .28) {
+  const [cx, cy] = tx(x, y), z = zoom();
+  g.save(); g.setTransform(1, 0, 0, 1, 0, 0); g.translate(cx, cy); g.scale(1, ry / rx);
+  const gr = g.createRadialGradient(0, 0, 0, 0, 0, rx * z);
+  gr.addColorStop(0, `rgba(20,10,40,${a})`); gr.addColorStop(1, 'rgba(20,10,40,0)');
+  g.fillStyle = gr; g.beginPath(); g.arc(0, 0, rx * z, 0, TAU); g.fill(); g.restore();
+}
+// a warm light pass over the finished frame: a sunlit glow from the top left and a soft vignette
+export function lightPass(warm = 1) {
+  g.save(); g.setTransform(1, 0, 0, 1, 0, 0);
+  const sun = g.createRadialGradient(W * .2, H * .05, 0, W * .2, H * .05, W * .9);
+  sun.addColorStop(0, `rgba(255,220,160,${.16 * warm})`); sun.addColorStop(1, 'rgba(255,220,160,0)');
+  g.globalCompositeOperation = 'soft-light'; g.fillStyle = sun; g.fillRect(0, 0, W, H);
+  g.globalCompositeOperation = 'source-over';
+  const vg = g.createRadialGradient(W / 2, H / 2, H * .45, W / 2, H / 2, W * .72);
+  vg.addColorStop(0, 'rgba(10,5,30,0)'); vg.addColorStop(1, 'rgba(10,5,30,.42)');
+  g.fillStyle = vg; g.fillRect(0, 0, W, H);
+  g.restore();
 }
 export function outline(P, lw = S.lw, col = INK) {
   g.setTransform(1, 0, 0, 1, 0, 0);
