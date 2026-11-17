@@ -1,0 +1,19 @@
+[
+ {"id": "t1", "who": "TATA", "voice": "ro-RO-EmilNeural", "rate": "-22%", "pitch": "-10Hz", "text": "Care e parola?"},
+ {"id": "m1", "who": "MAMA", "voice": "ro-RO-AlinaNeural", "rate": "-12%", "pitch": "-6Hz",
+  "text": "Numele câinelui... cu literă mare... plus anul în care ne-am căsătorit."},
+ {"id": "a1", "who": "ANDREI", "voice": "ro-RO-EmilNeural", "rate": "+16%", "pitch": "+30Hz", "text": "Tată. Câinele e Rex. R mare."},
+ {"id": "t2", "who": "TATA", "voice": "ro-RO-EmilNeural", "rate": "-22%", "pitch": "-10Hz", "text": "Știu cum îl cheamă pe câine."},
+ {"id": "a2", "who": "ANDREI", "voice": "ro-RO-EmilNeural", "rate": "-18%", "pitch": "-14Hz", "text": "Am terminat liceul între timp."},
+ {"id": "t3", "who": "TATA", "voice": "ro-RO-EmilNeural", "rate": "-22%", "pitch": "-10Hz", "text": "Gata. Rex."},
+ {"id": "m2", "who": "MAMA", "voice": "ro-RO-AlinaNeural", "rate": "-8%", "pitch": "-6Hz", "text": "Nu Rex. Pe acte îl cheamă Domnul Rex."},
+ {"id": "t4", "who": "TATA", "voice": "ro-RO-EmilNeural", "rate": "-30%", "pitch": "-10Hz", "text": "Domnul... Rex."},
+ {"id": "a3", "who": "ANDREI", "voice": "ro-RO-EmilNeural", "rate": "+22%", "pitch": "+34Hz", "text": "Cu spațiu sau fără spațiu?!"},
+ {"id": "t5", "who": "TATA", "voice": "ro-RO-EmilNeural", "rate": "-26%", "pitch": "-10Hz", "text": "Aici scrie... Rexy."},
+ {"id": "a4", "who": "ANDREI", "voice": "ro-RO-EmilNeural", "rate": "+20%", "pitch": "+32Hz", "text": "Încearcă-le pe toate trei!"},
+ {"id": "t6", "who": "TATA", "voice": "ro-RO-EmilNeural", "rate": "-24%", "pitch": "-10Hz", "text": "Și anul."},
+ {"id": "m3", "who": "MAMA", "voice": "ro-RO-AlinaNeural", "rate": "-18%", "pitch": "-8Hz", "text": "Știi tu foarte bine."},
+ {"id": "t7", "who": "TATA", "voice": "ro-RO-EmilNeural", "rate": "-12%", "pitch": "-10Hz", "text": "O mie nouă sute optzeci și...", "sub": "1980 și..."},
+ {"id": "t8", "who": "TATA", "voice": "ro-RO-EmilNeural", "rate": "-20%", "pitch": "-10Hz", "text": "Și ceva.", "sub": "...și ceva."},
+ {"id": "a5", "who": "ANDREI", "voice": "ro-RO-EmilNeural", "rate": "+6%", "pitch": "+28Hz", "text": "Partea a doua: investigația."}
+]

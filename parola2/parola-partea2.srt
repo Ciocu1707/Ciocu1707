@@ -1,0 +1,59 @@
+1
+00:00:02,200 --> 00:00:04,572
+TATA: Începem investigația.
+
+2
+00:00:07,300 --> 00:00:09,560
+ANDREI: Tată, e doar un an.
+
+3
+00:00:13,200 --> 00:00:15,916
+TATA: Pe tort scrie 1500.
+
+4
+00:00:16,200 --> 00:00:18,394
+MAMA: Ăla e prețul tortului.
+
+5
+00:00:20,500 --> 00:00:22,070
+TATA: 87!
+
+6
+00:00:24,300 --> 00:00:27,284
+ANDREI: Tată, aia e mașina vecinului.
+
+7
+00:00:36,400 --> 00:00:40,561
+TATA: Garanție frigider. Inutil.
+
+8
+00:00:43,000 --> 00:00:45,371
+TATA: Murăturile au ani pe ele!
+
+9
+00:01:01,000 --> 00:01:03,864
+ANDREI: Tată, asta e o conspirație.
+
+10
+00:01:04,400 --> 00:01:06,182
+TATA: Totul se leagă.
+
+11
+00:01:24,400 --> 00:01:25,594
+MAMA: Stai!
+
+12
+00:01:33,000 --> 00:01:34,275
+ANDREI: Nuuu!
+
+13
+00:01:40,400 --> 00:01:42,900
+MAMA: Ne-am căsătorit în '91.
+
+14
+00:01:44,600 --> 00:01:46,544
+TATA: Am fost aproape.
+
+15
+00:01:54,600 --> 00:01:57,542
+ANDREI: Partea a treia: marea resetare.

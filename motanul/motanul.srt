@@ -1,0 +1,27 @@
+1
+00:00:00,500 --> 00:00:06,310
+SORIN: Gata! Imprimanta de clone funcționează! Bubu, dă-te jos de pe ea!
+
+2
+00:00:11,500 --> 00:00:16,380
+SORIN: Nu. Nu, nu, nu! Un singur Bubu e destul!
+
+3
+00:00:21,500 --> 00:00:24,035
+SORIN: Opriți-vă! Cine a apăsat?!
+
+4
+00:00:26,600 --> 00:00:28,794
+SORIN: Am o singură conservă!
+
+5
+00:00:36,500 --> 00:00:37,812
+SORIN: Bubuuu!
+
+6
+00:00:47,400 --> 00:00:49,340
+SORIN ×2: ...Ce vrei, Bubu?
+
+7
+00:00:49,400 --> 00:00:50,649
+BUBU: Miau.
