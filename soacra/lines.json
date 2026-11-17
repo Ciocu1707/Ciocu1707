@@ -1,0 +1,13 @@
+[
+ {"id": "g1", "who": "GPS", "voice": "ro-RO-AlinaNeural", "rate": "-4%", "pitch": "+6Hz", "text": "Virați la stânga."},
+ {"id": "s1", "who": "SOACRA", "voice": "ro-RO-AlinaNeural", "rate": "+16%", "pitch": "-16Hz", "text": "Nu-l asculta! Ia-o la dreapta, pe acolo e mătușa Veta!"},
+ {"id": "g2", "who": "GPS", "voice": "ro-RO-AlinaNeural", "rate": "-4%", "pitch": "+6Hz", "text": "Recalculare."},
+ {"id": "g3", "who": "GPS", "voice": "ro-RO-AlinaNeural", "rate": "+4%", "pitch": "+10Hz", "text": "Virați la stânga!"},
+ {"id": "s2", "who": "SOACRA", "voice": "ro-RO-AlinaNeural", "rate": "+10%", "pitch": "-16Hz", "text": "Dreapta!"},
+ {"id": "d1", "who": "GINERE", "voice": "ro-RO-EmilNeural", "rate": "+24%", "pitch": "+28Hz", "text": "Doamna soacră, sigur?!"},
+ {"id": "s3", "who": "SOACRA", "voice": "ro-RO-AlinaNeural", "rate": "+4%", "pitch": "-16Hz", "text": "Am mers pe aici în șaptezeci și doi!", "sub": "Am mers pe aici în '72!"},
+ {"id": "g4", "who": "GPS", "voice": "ro-RO-AlinaNeural", "rate": "-18%", "pitch": "-2Hz", "text": "Ați ajuns... nicăieri."},
+ {"id": "s4", "who": "SOACRA", "voice": "ro-RO-AlinaNeural", "rate": "-10%", "pitch": "-16Hz", "text": "Am ajuns."},
+ {"id": "v1", "who": "VETA", "voice": "ro-RO-AlinaNeural", "rate": "-16%", "pitch": "-24Hz", "text": "Iar ați venit pe la găini?"},
+ {"id": "s5", "who": "SOACRA", "voice": "ro-RO-AlinaNeural", "rate": "-4%", "pitch": "-16Hz", "text": "Și tu, ia notițe."}
+]
