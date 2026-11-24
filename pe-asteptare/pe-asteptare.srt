@@ -1,0 +1,67 @@
+1
+00:00:00,450 --> 00:00:06,485
+TELEFON: Apelul dumneavoastră este important pentru noi. Sunteți al 47-lea la rând.
+
+2
+00:00:06,250 --> 00:00:09,522
+ILINCA: Doru! Stau pe așteptare de 3 ore!
+
+3
+00:00:09,450 --> 00:00:11,065
+DORU: Am rezolvat.
+
+4
+00:00:10,950 --> 00:00:13,144
+DORU: Sărim peste așteptare.
+
+5
+00:00:12,700 --> 00:00:14,900
+ILINCA: Nu, Doru, stai, stai—
+
+6
+00:00:15,900 --> 00:00:18,611
+TELEFON: Sunteți al 46-lea la rând.
+
+7
+00:00:18,550 --> 00:00:21,527
+ILINCA: O săptămână?! Pentru unul?!
+
+8
+00:00:21,350 --> 00:00:22,780
+DORU: Mai sărim.
+
+9
+00:00:23,450 --> 00:00:26,079
+TELEFON: Sunteți al 45-lea la rând.
+
+10
+00:00:27,750 --> 00:00:32,005
+ILINCA: 40 de ani, Doru. Pentru unul.
+
+11
+00:00:31,750 --> 00:00:33,380
+DORU: Ultima dată.
+
+12
+00:00:34,450 --> 00:00:37,539
+OPERATOR: Bună ziua! Cu ce vă pot ajuta?
+
+13
+00:00:39,650 --> 00:00:41,728
+ILINCA: ...Am uitat de ce am sunat.
+
+14
+00:00:42,750 --> 00:00:44,356
+OPERATOR: Vă transfer.
+
+15
+00:00:44,250 --> 00:00:46,957
+TELEFON: Sunteți al 47-lea la rând.
+
+16
+00:00:46,750 --> 00:00:48,003
+DORU: Sărim?
+
+17
+00:00:48,050 --> 00:00:49,303
+ILINCA: Sărim.

@@ -1,0 +1,17 @@
+[
+ {"id": "t1", "who": "TATA", "voice": "ro-RO-EmilNeural", "rate": "-24%", "pitch": "-12Hz", "text": "Începem investigația."},
+ {"id": "a1", "who": "ANDREI", "voice": "ro-RO-EmilNeural", "rate": "-10%", "pitch": "-10Hz", "text": "Tată, e doar un an."},
+ {"id": "t2", "who": "TATA", "voice": "ro-RO-EmilNeural", "rate": "-20%", "pitch": "-10Hz", "text": "Pe tort scrie o mie cinci sute.", "sub": "Pe tort scrie 1500."},
+ {"id": "m1", "who": "MAMA", "voice": "ro-RO-AlinaNeural", "rate": "-10%", "pitch": "-6Hz", "text": "Ăla e prețul tortului."},
+ {"id": "t3", "who": "TATA", "voice": "ro-RO-EmilNeural", "rate": "-6%", "pitch": "-8Hz", "text": "Optzeci și șapte!", "sub": "87!"},
+ {"id": "a2", "who": "ANDREI", "voice": "ro-RO-EmilNeural", "rate": "-8%", "pitch": "-10Hz", "text": "Tată, aia e mașina vecinului."},
+ {"id": "t4", "who": "TATA", "voice": "ro-RO-EmilNeural", "rate": "-22%", "pitch": "-10Hz", "text": "Garanție frigider. Inutil."},
+ {"id": "t5", "who": "TATA", "voice": "ro-RO-EmilNeural", "rate": "-8%", "pitch": "-8Hz", "text": "Murăturile au ani pe ele!"},
+ {"id": "a3", "who": "ANDREI", "voice": "ro-RO-EmilNeural", "rate": "-8%", "pitch": "-10Hz", "text": "Tată, asta e o conspirație."},
+ {"id": "t6", "who": "TATA", "voice": "ro-RO-EmilNeural", "rate": "-24%", "pitch": "-12Hz", "text": "Totul se leagă."},
+ {"id": "m2", "who": "MAMA", "voice": "ro-RO-AlinaNeural", "rate": "+10%", "pitch": "+4Hz", "text": "Stai!"},
+ {"id": "a4", "who": "ANDREI", "voice": "ro-RO-EmilNeural", "rate": "-40%", "pitch": "-30Hz", "text": "Nuuu!"},
+ {"id": "m3", "who": "MAMA", "voice": "ro-RO-AlinaNeural", "rate": "-14%", "pitch": "-8Hz", "text": "Ne-am căsătorit în nouăzeci și unu.", "sub": "Ne-am căsătorit în '91."},
+ {"id": "t7", "who": "TATA", "voice": "ro-RO-EmilNeural", "rate": "-26%", "pitch": "-12Hz", "text": "Am fost aproape."},
+ {"id": "a5", "who": "ANDREI", "voice": "ro-RO-EmilNeural", "rate": "-4%", "pitch": "-8Hz", "text": "Partea a treia: marea resetare."}
+]

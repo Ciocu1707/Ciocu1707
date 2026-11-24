@@ -1,0 +1,16 @@
+[
+ {"id": "s1", "who": "SORIN", "voice": "ro-RO-EmilNeural", "rate": "+14%", "pitch": "+18Hz",
+  "text": "Gata! Imprimanta de clone funcționează! Bubu, dă-te jos de pe ea!"},
+ {"id": "s2", "who": "SORIN", "voice": "ro-RO-EmilNeural", "rate": "+16%", "pitch": "+22Hz",
+  "text": "Nu. Nu, nu, nu! Un singur Bubu e destul!"},
+ {"id": "s3", "who": "SORIN", "voice": "ro-RO-EmilNeural", "rate": "+22%", "pitch": "+28Hz",
+  "text": "Opriți-vă! Cine a apăsat?!"},
+ {"id": "s4", "who": "SORIN", "voice": "ro-RO-EmilNeural", "rate": "+10%", "pitch": "+24Hz",
+  "text": "Am o singură conservă!"},
+ {"id": "s5", "who": "SORIN", "voice": "ro-RO-EmilNeural", "rate": "-20%", "pitch": "+26Hz",
+  "text": "Bubuuu!"},
+ {"id": "s6", "who": "SORIN", "voice": "ro-RO-EmilNeural", "rate": "-4%", "pitch": "+14Hz",
+  "text": "Ce vrei, Bubu?", "sub": "...Ce vrei, Bubu?"},
+ {"id": "b1", "who": "BUBU", "voice": "ro-RO-EmilNeural", "rate": "-30%", "pitch": "-22Hz",
+  "text": "Miau."}
+]

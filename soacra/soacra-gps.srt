@@ -1,0 +1,63 @@
+1
+00:00:03,400 --> 00:00:04,818
+GPS: Virați la stânga.
+
+2
+00:00:05,000 --> 00:00:08,884
+SOACRA: Nu-l asculta! Ia-o la dreapta, pe acolo e mătușa Veta!
+
+3
+00:00:11,200 --> 00:00:12,806
+GPS: Recalculare.
+
+4
+00:00:13,100 --> 00:00:14,402
+GPS: Virați la stânga!
+
+5
+00:00:14,500 --> 00:00:15,380
+SOACRA: Dreapta!
+
+6
+00:00:15,500 --> 00:00:17,380
+GINERE: Doamna soacră, sigur?!
+
+7
+00:00:17,500 --> 00:00:19,580
+SOACRA: Am mers pe aici în '72!
+
+8
+00:00:20,000 --> 00:00:20,850
+GPS: Recalculare.
+
+9
+00:00:21,300 --> 00:00:22,150
+GPS: Recalculare.
+
+10
+00:00:22,500 --> 00:00:23,350
+GPS: Recalculare.
+
+11
+00:00:23,500 --> 00:00:24,350
+GPS: Recalculare.
+
+12
+00:00:24,400 --> 00:00:25,250
+GPS: Recalculare.
+
+13
+00:00:27,200 --> 00:00:29,380
+GPS: Ați ajuns... nicăieri.
+
+14
+00:00:35,200 --> 00:00:36,629
+SOACRA: Am ajuns.
+
+15
+00:00:37,300 --> 00:00:39,729
+VETA: Iar ați venit pe la găini?
+
+16
+00:00:40,400 --> 00:00:42,431
+SOACRA: Și tu, ia notițe.

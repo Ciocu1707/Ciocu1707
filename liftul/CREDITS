@@ -1,0 +1,9 @@
+Liftul — credits for third-party material
+
+Voices: Microsoft Edge neural text-to-speech via edge-tts (MIT-licensed client, https://github.com/rany2/edge-tts),
+        voices ro-RO-EmilNeural and ro-RO-AlinaNeural. Generated speech used under Microsoft's service terms.
+Fonts:  Baloo 2 (Ek Type), VT323 (Peter Hull), Bungee (David Jonathan Ross) — Google Fonts, SIL Open Font License 1.1
+        (licence texts in fonts/OFL-*.txt). https://github.com/google/fonts
+Music and sound effects: original, synthesized in code (numpy) for this film. No samples.
+Rendering tools: Lemo-Opuscar library (github.com/lemomo-ai/lemo-opuscar), drawing engine toon.js copied from it.
+Style: inspired by adult-swim-era sci-fi sitcom cartoons (grammar only; all characters, props and designs are original).
